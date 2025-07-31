@@ -145,9 +145,9 @@ const Index = () => {
             <article className="glass-card p-8 group">
               <div className="flex items-center gap-3 mb-6">
                 <Code className="text-neon-cyan" size={28} />
-                <h3 className="font-orbitron text-xl font-semibold">Student Management System</h3>
+                <h3 className="font-orbitron text-xl font-semibold">Airline Reservation System</h3>
               </div>
-              <p className="text-muted-foreground mb-6 leading-relaxed">A comprehensive Java application for managing student records with CRUD operations, built using JDBC for database connectivity and featuring a clean console interface.</p>
+              <p className="text-muted-foreground mb-6 leading-relaxed">A comprehensive airline booking system built with Java, featuring flight search, seat reservation, passenger management, and booking confirmation with database integration using JDBC.</p>
               <a href="https://github.com" className="btn-futuristic inline-flex items-center gap-2 text-sm">
                 <Github size={16} />
                 View Code
