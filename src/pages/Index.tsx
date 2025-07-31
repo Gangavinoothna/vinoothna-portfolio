@@ -140,80 +140,23 @@ const Index = () => {
                 View Code
               </a>
             </article>
-          </div>
-        </div>
-      </section>
-
-      {/* Section Divider */}
-      <div className="section-divider"></div>
-
-      {/* Blog Section */}
-      <section id="blog" className="py-20">
-        <div className="container mx-auto px-6">
-          <h2 className="font-orbitron text-4xl md:text-5xl font-bold text-center mb-16 neon-text-purple">
-            Latest Articles
-          </h2>
-          
-          <div className="max-w-4xl mx-auto space-y-8">
-            {/* Blog Post 1 */}
-            <article className="glass-card p-8 group">
-              <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-                <h3 className="font-orbitron text-xl font-semibold mb-2 md:mb-0">
-                  Building Scalable REST APIs with Spring Boot
-                </h3>
-                <span className="text-neon-cyan text-sm font-mono">Dec 2024</span>
-              </div>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                Explore best practices for designing and implementing RESTful APIs that can handle 
-                high traffic loads while maintaining clean architecture and optimal performance.
-              </p>
-              <a href="#" className="inline-flex items-center gap-2 text-neon-cyan hover:text-neon-purple transition-colors">
-                Read More
-                <ExternalLink size={16} />
-              </a>
-            </article>
             
-            {/* Blog Post 2 */}
+            {/* Project 4 */}
             <article className="glass-card p-8 group">
-              <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-                <h3 className="font-orbitron text-xl font-semibold mb-2 md:mb-0">
-                  Database Optimization Techniques in Java Applications
-                </h3>
-                <span className="text-neon-cyan text-sm font-mono">Nov 2024</span>
+              <div className="flex items-center gap-3 mb-6">
+                <Code className="text-neon-cyan" size={28} />
+                <h3 className="font-orbitron text-xl font-semibold">Student Management System</h3>
               </div>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                Deep dive into advanced database optimization strategies, connection pooling, 
-                and query optimization techniques for Java-based applications.
-              </p>
-              <a href="#" className="inline-flex items-center gap-2 text-neon-cyan hover:text-neon-purple transition-colors">
-                Read More
-                <ExternalLink size={16} />
-              </a>
-            </article>
-            
-            {/* Blog Post 3 */}
-            <article className="glass-card p-8 group">
-              <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-                <h3 className="font-orbitron text-xl font-semibold mb-2 md:mb-0">
-                  Modern Frontend-Backend Integration Patterns
-                </h3>
-                <span className="text-neon-cyan text-sm font-mono">Oct 2024</span>
-              </div>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                Learn about effective patterns for connecting frontend applications with Java backends, 
-                including authentication, data synchronization, and error handling strategies.
-              </p>
-              <a href="#" className="inline-flex items-center gap-2 text-neon-cyan hover:text-neon-purple transition-colors">
-                Read More
-                <ExternalLink size={16} />
+              <p className="text-muted-foreground mb-6 leading-relaxed">A comprehensive Java application for managing student records with CRUD operations, built using JDBC for database connectivity and featuring a clean console interface.</p>
+              <a href="https://github.com" className="btn-futuristic inline-flex items-center gap-2 text-sm">
+                <Github size={16} />
+                View Code
               </a>
             </article>
           </div>
         </div>
       </section>
 
-      {/* Section Divider */}
-      <div className="section-divider"></div>
 
       {/* Contact Section */}
       <section id="contact" className="py-20">
