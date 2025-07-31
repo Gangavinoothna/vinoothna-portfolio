@@ -1,14 +1,12 @@
 import { Github, Linkedin, Mail, ExternalLink, Download, ArrowUp, Code, Database, Server } from "lucide-react";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background font-inter">
+  return <div className="min-h-screen bg-background font-inter">
       {/* Hero Section */}
       <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-neon-cyan/5 via-transparent to-neon-purple/5"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="fade-up">
-            <h1 className="font-orbitron text-6xl md:text-8xl font-bold mb-6 gradient-text">
+            <h1 className="font-orbitron text-6xl md:text-8xl mb-6 gradient-text font-medium text-center">
               Vinoothna Ganga
             </h1>
             <div className="text-2xl md:text-3xl font-semibold neon-text mb-8">
@@ -79,13 +77,13 @@ const Index = () => {
               <div className="flex flex-wrap justify-center gap-4">
                 <span className="skill-tag">Java</span>
                 <span className="skill-tag">JDBC</span>
-                <span className="skill-tag">Spring Boot</span>
-                <span className="skill-tag">Servlets</span>
+                
+                
                 <span className="skill-tag">HTML5</span>
                 <span className="skill-tag">CSS3</span>
-                <span className="skill-tag">JavaScript</span>
+                
                 <span className="skill-tag">MySQL</span>
-                <span className="skill-tag">RESTful APIs</span>
+                
                 <span className="skill-tag">Git</span>
               </div>
             </div>
@@ -108,12 +106,9 @@ const Index = () => {
             <article className="glass-card p-8 group">
               <div className="flex items-center gap-3 mb-6">
                 <Code className="text-neon-cyan" size={28} />
-                <h3 className="font-orbitron text-xl font-semibold">E-Commerce Backend</h3>
+                <h3 className="font-orbitron text-xl font-semibold">To-do list </h3>
               </div>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                A robust Java-based e-commerce backend with user authentication, product management, 
-                and order processing using Spring Boot and MySQL.
-              </p>
+              <p className="text-muted-foreground mb-6 leading-relaxed">A simple and interactive To-Do list web application that allow users to add , edit delete, and mark tasks as completed.</p>
               <a href="https://github.com" className="btn-futuristic inline-flex items-center gap-2 text-sm">
                 <Github size={16} />
                 View Code
@@ -124,12 +119,9 @@ const Index = () => {
             <article className="glass-card p-8 group">
               <div className="flex items-center gap-3 mb-6">
                 <Database className="text-neon-cyan" size={28} />
-                <h3 className="font-orbitron text-xl font-semibold">Library Management System</h3>
+                <h3 className="font-orbitron text-xl font-semibold">Crafting a landing page</h3>
               </div>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                Complete library management solution with book tracking, member management, 
-                and automated fine calculation using JDBC and Servlets.
-              </p>
+              <p className="text-muted-foreground mb-6 leading-relaxed">Designed and developed a responsive and visually appealing landing page aimed at engaging users and encouraging them to take action.</p>
               <a href="https://github.com" className="btn-futuristic inline-flex items-center gap-2 text-sm">
                 <Github size={16} />
                 View Code
@@ -140,12 +132,9 @@ const Index = () => {
             <article className="glass-card p-8 group">
               <div className="flex items-center gap-3 mb-6">
                 <Server className="text-neon-cyan" size={28} />
-                <h3 className="font-orbitron text-xl font-semibold">Task Management API</h3>
+                <h3 className="font-orbitron text-xl font-semibold">Weather Forecast App</h3>
               </div>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                RESTful API for task management with user authentication, project organization, 
-                and real-time notifications built with Spring Boot.
-              </p>
+              <p className="text-muted-foreground mb-6 leading-relaxed">A console based java application that allows users to enter a city name and get current weather details like Temperature, Humidity, and weather description.</p>
               <a href="https://github.com" className="btn-futuristic inline-flex items-center gap-2 text-sm">
                 <Github size={16} />
                 View Code
@@ -240,48 +229,24 @@ const Index = () => {
                   <label htmlFor="name" className="block text-sm font-medium mb-3 text-foreground">
                     Name
                   </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    className="form-input w-full"
-                    placeholder="Your full name"
-                    required
-                  />
+                  <input type="text" id="name" name="name" className="form-input w-full" placeholder="Your full name" required />
                 </div>
                 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium mb-3 text-foreground">
                     Email
                   </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="form-input w-full"
-                    placeholder="your.email@example.com"
-                    required
-                  />
+                  <input type="email" id="email" name="email" className="form-input w-full" placeholder="your.email@example.com" required />
                 </div>
                 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium mb-3 text-foreground">
                     Message
                   </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={6}
-                    className="form-input w-full resize-none"
-                    placeholder="Tell me about your project or just say hello..."
-                    required
-                  ></textarea>
+                  <textarea id="message" name="message" rows={6} className="form-input w-full resize-none" placeholder="Tell me about your project or just say hello..." required></textarea>
                 </div>
                 
-                <button
-                  type="submit"
-                  className="btn-futuristic w-full"
-                >
+                <button type="submit" className="btn-futuristic w-full">
                   Send Message
                 </button>
               </div>
@@ -320,8 +285,6 @@ const Index = () => {
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
