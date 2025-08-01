@@ -18,13 +18,13 @@ const Index = () => {
             
             {/* Social Icons */}
             <div className="flex justify-center gap-6 mb-12">
-              <a href="https://github.com" className="social-icon">
+              <a href="https://github.com/Gangavinoothna" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com" className="social-icon">
+              <a href="https://www.linkedin.com/in/vinoothna-reddy-ganga-860a64251/" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:vinoothna@example.com" className="social-icon">
+              <a href="mailto:vinoothnareddyganga799@gmail.com" className="social-icon">
                 <Mail size={24} />
               </a>
             </div>
@@ -210,13 +210,13 @@ const Index = () => {
             
             {/* Social Icons */}
             <div className="flex items-center gap-4">
-              <a href="https://github.com" className="social-icon">
+              <a href="https://github.com/Gangavinoothna" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" className="social-icon">
+              <a href="https://www.linkedin.com/in/vinoothna-reddy-ganga-860a64251/" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:vinoothna@example.com" className="social-icon">
+              <a href="mailto:vinoothnareddyganga799@gmail.com" className="social-icon">
                 <Mail size={20} />
               </a>
               
