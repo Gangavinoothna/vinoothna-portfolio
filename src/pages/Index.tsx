@@ -109,7 +109,7 @@ const Index = () => {
                 <h3 className="font-orbitron text-xl font-semibold">To-do list </h3>
               </div>
               <p className="text-muted-foreground mb-6 leading-relaxed">A simple and interactive To-Do list web application that allow users to add , edit delete, and mark tasks as completed.</p>
-              <a href="https://github.com" className="btn-futuristic inline-flex items-center gap-2 text-sm">
+              <a href="https://github.com/Gangavinoothna/To-Do-list" className="btn-futuristic inline-flex items-center gap-2 text-sm">
                 <Github size={16} />
                 View Code
               </a>
@@ -122,7 +122,7 @@ const Index = () => {
                 <h3 className="font-orbitron text-xl font-semibold">Crafting a landing page</h3>
               </div>
               <p className="text-muted-foreground mb-6 leading-relaxed">Designed and developed a responsive and visually appealing landing page aimed at engaging users and encouraging them to take action.</p>
-              <a href="https://github.com" className="btn-futuristic inline-flex items-center gap-2 text-sm">
+              <a href="https://github.com/Gangavinoothna/crafting-a-landing-page" className="btn-futuristic inline-flex items-center gap-2 text-sm">
                 <Github size={16} />
                 View Code
               </a>
@@ -135,7 +135,7 @@ const Index = () => {
                 <h3 className="font-orbitron text-xl font-semibold">Weather Forecast App</h3>
               </div>
               <p className="text-muted-foreground mb-6 leading-relaxed">A console based java application that allows users to enter a city name and get current weather details like Temperature, Humidity, and weather description.</p>
-              <a href="https://github.com" className="btn-futuristic inline-flex items-center gap-2 text-sm">
+              <a href="https://github.com/Gangavinoothna/weather-forecast-app" className="btn-futuristic inline-flex items-center gap-2 text-sm">
                 <Github size={16} />
                 View Code
               </a>
@@ -148,7 +148,7 @@ const Index = () => {
                 <h3 className="font-orbitron text-xl font-semibold">Airline Reservation System</h3>
               </div>
               <p className="text-muted-foreground mb-6 leading-relaxed">A comprehensive airline booking system built with Java, featuring flight search, seat reservation, passenger management, and booking confirmation with database integration using JDBC.</p>
-              <a href="https://github.com" className="btn-futuristic inline-flex items-center gap-2 text-sm">
+              <a href="https://github.com/Gangavinoothna/airline-reservations-system" className="btn-futuristic inline-flex items-center gap-2 text-sm">
                 <Github size={16} />
                 View Code
               </a>
